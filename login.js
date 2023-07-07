@@ -13,7 +13,7 @@ function cekLogin(){
         messageContainer.innerHTML = "<p class='error-message'>Login Gagal, Email atau Password salah ! </p>";
     } else {
 
-        // messageContainer.innerHTML = "<p class='success-message'>Login Berhasil...</p>";
-        window.location.href = "order/order.html";
+        messageContainer.innerHTML = "<p class='success-message'>Login Berhasil...</p>";
+        //window.location.href = "order/order.html";
     }
 }
